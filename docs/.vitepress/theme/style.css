@@ -1,0 +1,129 @@
+/** 代码字体 */
+@font-face {
+	font-family: "FiraCode";
+	src: url("/fonts/FiraCode-Regular.ttf");
+}
+@font-face {
+	font-family: "FiraCode";
+	src: url("/fonts/FiraCode-Bold.ttf");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "FiraCode";
+	src: url("/fonts/FiraCode-Light.ttf");
+	font-weight: lighter;
+}
+
+/* 参考 https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
+/**
+ * Colors Base
+ *
+ * These are the pure base color presets. Most of the time, you should not be
+ * using these colors directly in the theme but rather use "Colors Theme"
+ * instead because those are "Theme (light or dark)" dependant.
+ * -------------------------------------------------------------------------- */
+
+:root {
+	--vp-c-blue-1: #2949a4;
+	--vp-c-blue-2: #0749ff;
+	--vp-c-blue-3: #7494ec;
+	--vp-c-blue-soft: rgba(110, 156, 190, 0.14);
+
+	--vp-c-yellow-1: #aa9100;
+	--vp-c-yellow-2: #d5b811;
+	--vp-c-yellow-3: #ecce23;
+	--vp-c-yellow-soft: rgba(186, 186, 186, 0.14);
+}
+
+/**
+ * Colors Theme
+ * -------------------------------------------------------------------------- */
+
+:root {
+	--vp-c-brand-1: var(--vp-c-blue-1);
+	--vp-c-brand-2: var(--vp-c-blue-2);
+	--vp-c-brand-3: var(--vp-c-blue-3);
+	--vp-c-brand-soft: var(--vp-c-blue-soft);
+}
+
+.dark {
+	--vp-c-brand-1: var(--vp-c-yellow-1);
+	--vp-c-brand-2: var(--vp-c-yellow-2);
+	--vp-c-brand-3: var(--vp-c-yellow-3);
+	--vp-c-brand-soft: var(--vp-c-yellow-soft);
+}
+
+/**
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+:root {
+	--vp-font-family-base: "Inter var experimental", "Inter var", ui-sans-serif,
+		system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--vp-font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco,
+		Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/**
+ * 特殊配置
+ * -------------------------------------------------------------------------- */
+
+/* 侧边栏标题隐藏单行文本溢出 */
+.VPSidebar .items p {
+	display: inline-block;
+	width: calc(var(--vp-sidebar-width) - 100px);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+code {
+	font-family: "FiraCode";
+}
+
+/** 总体类 */
+::selection {
+	background: var(--vp-c-brand-1);
+	color: var(--vp-c-bg);
+}
+
+::-moz-selection {
+	background: var(--vp-c-brand-1);
+	color: var(--vp-c-bg);
+}
+
+::-webkit-selection {
+	background: var(--vp-c-brand-1);
+	color: var(--vp-c-bg);
+}
+
+.VPDoc img {
+	border-radius: 4px;
+	padding: 20px;
+	cursor: zoom-in;
+}
+
+/* jupyter输出代码不换行显示 */
+main > div > div > pre > code {
+	white-space: normal;
+}
+
+/* 首页不需要padding，其他页面需要 */
+.VPContent {
+	padding-top: 0 !important;
+}
+
+.VPContent.has-sidebar {
+	padding-top: var(--vp-nav-height) !important;
+}
+
+#app {
+	/* 取消移动端点击div默认高亮效果 */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.VPFooter {
+	border-top: 1px solid var(--vp-c-border);
+}
