@@ -146,3 +146,11 @@ main > div > div > pre > code {
 		rgba(var(--vp-nav-bg-color), 0.4)
 	) !important;
 }
+
+
+.VPLocalNav,
+.has-sidebar,
+.has-aside .container {
+	backdrop-filter: none;
+	background-color: none !important;
+}
