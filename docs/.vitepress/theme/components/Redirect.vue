@@ -3,7 +3,7 @@
 import { onMounted } from "vue";
 
 onMounted(() => {
-	window.location.href = "/2024/000";
+	window.location.href = "/posts/2024/000";
 });
 </script>
 <style scoped></style>
