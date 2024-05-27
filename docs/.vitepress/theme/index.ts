@@ -1,6 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from "vue";
 import Theme from "vitepress/theme";
+
+import "./style.css";
 import Comment from "./components/Comment.vue";
 
 export default {
@@ -11,7 +13,7 @@ export default {
 			"doc-after": () => h(Comment),
 		});
 	},
-	// @ts-ignore
+
 	enhanceApp({ app }) {
 		app.component("Comment", Comment);
 	},
