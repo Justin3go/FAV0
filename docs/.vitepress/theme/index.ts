@@ -1,9 +1,12 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from "vue";
 import Theme from "vitepress/theme";
+// 引入组件库的少量全局样式变量
+import 'tdesign-vue-next/es/style/index.css';
 
 import "./style.css";
 import Comment from "./components/Comment.vue";
+import ImageViewer from "./components/ImageViewer.vue"
 
 export default {
 	...Theme,
@@ -11,6 +14,7 @@ export default {
 		return h(Theme.Layout, null, {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
 			"doc-after": () => h(Comment),
+			"doc-bottom": () => h(ImageViewer),
 		});
 	},
 

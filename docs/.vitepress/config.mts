@@ -1,4 +1,8 @@
 import { defineConfig, type SiteConfig } from 'vitepress'
+// 自动导入TDesign 
+import AutoImport from 'unplugin-auto-import/vite';
+import Components from 'unplugin-vue-components/vite';
+import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
 import { createRssFile } from "./utils/rss";
 
@@ -76,7 +80,23 @@ export default defineConfig({
     returnToTopLabel: "回到顶部",
     sidebarMenuLabel: "目录",
     darkModeSwitchLabel: "深色模式",
-  }
+  },
+
+  vite: {
+		plugins: [
+			// ...
+			AutoImport({
+				resolvers: [TDesignResolver({
+					library: 'vue-next'
+				})],
+			}),
+			Components({
+				resolvers: [TDesignResolver({
+					library: 'vue-next'
+				})],
+			}),
+		],
+	},
 })
 
 
