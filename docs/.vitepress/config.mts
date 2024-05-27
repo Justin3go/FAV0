@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
 import { createRssFile } from "./utils/rss";
+import { handleHeadMeta } from './utils/handleHeadMeta';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -36,6 +37,10 @@ export default defineConfig({
 			},
 		],
   ],
+  	// https://vitepress.dev/reference/site-config#transformhead
+	async transformHead(context) {
+		return handleHeadMeta(context)
+	},
   buildEnd: (config: SiteConfig) => {
     createRssFile(config);
   },
