@@ -8,7 +8,7 @@ const hostname = "https://fav0.com";
 export async function createRssFile(config: SiteConfig) {
   const feed = new Feed({
     title: "FAV0周刊",
-    description: "FAV0周刊",
+    description: "《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容",
     id: hostname,
     link: hostname,
     language: "zh-CH",

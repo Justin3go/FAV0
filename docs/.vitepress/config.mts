@@ -10,7 +10,7 @@ import { handleHeadMeta } from './utils/handleHeadMeta';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FAV0周刊",
-  description: "FAV0周刊",
+  description: "《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容",
   lang: "zh-CH", //语言
   lastUpdated: true,
   cleanUrls: true,
