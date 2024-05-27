@@ -8,6 +8,9 @@ dependencies:
   '@giscus/vue':
     specifier: ^3.0.0
     version: 3.0.0(vue@3.4.27)
+  tdesign-icons-vue-next:
+    specifier: ^0.2.2
+    version: 0.2.2(vue@3.4.27)
   tdesign-vue-next:
     specifier: ^1.9.5
     version: 1.9.5(vue@3.4.27)
