@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
+    "tdesign-icons-vue-next": "^0.2.2",
     "tdesign-vue-next": "^1.9.5",
     "vue": "^3.4.27"
   }

@@ -53,7 +53,7 @@ export default defineConfig({
     lastUpdatedText: "最近更新时间",
     nav: [
       // { text: 'Home', link: '/' },
-      { text: 'Posts', link: '/posts/2024/000' }
+      // { text: 'Posts', link: '/posts/2024/000' }
     ],
 
     sidebar: createSideBar(),
