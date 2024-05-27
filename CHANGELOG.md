@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Justin3go/FAV0/compare/v1.0.0...v1.0.1) (2024-05-27)
+
+
+### Docs
+
+* readme及协议 ([c69826f](https://github.com/Justin3go/FAV0/commit/c69826fd1b221bbfc1c75f6fe50fb261f8618937))
+
 ## 1.0.0 (2024-05-27)
 
 
