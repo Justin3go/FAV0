@@ -10,7 +10,7 @@
       :reactions-enabled="giscusConfig.reactionsEnabled"
       :emit-metadata="giscusConfig.emitMetadata"
       :input-position="giscusConfig.inputPosition"
-      :theme="isDark ? 'dark' : 'light'"
+      :theme="isDark ? 'noborder_dark' : 'noborder_light'"
       :lang="giscusConfig.lang"
       :loading="giscusConfig.loading"
 			:crossorigin="giscusConfig.crossorigin"
@@ -58,9 +58,4 @@ watch(
 );
 
 </script>
-<style>
-.comments {
-	padding: 20px;
-	border-radius: 10px;
-}
-</style>
+

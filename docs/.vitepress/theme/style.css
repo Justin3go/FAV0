@@ -112,24 +112,23 @@ code {
 	color: var(--vp-c-bg);
 }
 
+/** 链接样式 */
+.VPDoc a {
+	text-decoration: none !important;
+}
+
+.VPDoc a:hover {
+	text-decoration: underline !important;
+}
+
 .VPDoc img {
 	border-radius: 4px;
-	padding: 20px;
 	cursor: zoom-in;
 }
 
 /* jupyter输出代码不换行显示 */
 main > div > div > pre > code {
 	white-space: normal;
-}
-
-/* 首页不需要padding，其他页面需要 */
-.VPContent {
-	padding-top: 0 !important;
-}
-
-.VPContent.has-sidebar {
-	padding-top: var(--vp-nav-height) !important;
 }
 
 #app {
