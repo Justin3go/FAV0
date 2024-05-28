@@ -7,6 +7,13 @@
 
 * 移动端导航栏样式 ([600303f](https://github.com/Justin3go/FAV0/commit/600303fabbfb376b49c2c2e8ea880b6ff94bd205))
 
+## [1.0.2](https://github.com/Justin3go/FAV0/compare/v1.0.1...v1.0.2) (2024-05-27)
+
+
+### Bug Fixes
+
+* 移动端导航栏样式 ([600303f](https://github.com/Justin3go/FAV0/commit/600303fabbfb376b49c2c2e8ea880b6ff94bd205))
+
 ## [1.0.1](https://github.com/Justin3go/FAV0/compare/v1.0.0...v1.0.1) (2024-05-27)
 
 
