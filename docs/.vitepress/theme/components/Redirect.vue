@@ -1,9 +1,13 @@
 <template></template>
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { useRouter } from 'vitepress'
 
-onMounted(() => {
-	window.location.href = "/posts/2024/000";
-});
+import { createSideBar } from '../../utils'
+
+const sideBar = createSideBar()
+const firstItemLink = sideBar[0].items[0].link
+
+const router = useRouter()
+router.go(firstItemLink)
 </script>
 <style scoped></style>
