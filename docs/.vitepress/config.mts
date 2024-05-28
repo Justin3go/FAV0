@@ -4,8 +4,9 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
+import { createSideBar } from "./utils/createSideBar";
 import { createRssFile } from "./utils/rss";
-import { handleHeadMeta } from './utils/handleHeadMeta';
+import { handleHeadMeta } from "./utils/handleHeadMeta";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -85,6 +86,7 @@ export default defineConfig({
     returnToTopLabel: "回到顶部",
     sidebarMenuLabel: "目录",
     darkModeSwitchLabel: "深色模式",
+    externalLinkIcon: true,
   },
 
   vite: {
@@ -103,15 +105,3 @@ export default defineConfig({
 		],
 	},
 })
-
-
-export function createSideBar() {
-  return [
-    {
-      text: '2024',
-      items: [
-        { text: '000期--新的开始', link: '/posts/2024/000' },
-      ]
-    }
-  ]
-}
