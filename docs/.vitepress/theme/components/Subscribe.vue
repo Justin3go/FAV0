@@ -2,7 +2,7 @@
 	<t-popup placement="right" show-arrow destroy-on-close>
 		<template #content>
 			<div class="img-container">
-				<img src="https://oss.justin3go.com/Justin3goWXGZH.jpg" alt="" />
+				<img src="https://oss.justin3go.com/Justin3goWXGZH_QR.png" alt="" />
 			</div>
 		</template>
 		<t-button theme="default" variant="dashed" style="margin-bottom: 10px">

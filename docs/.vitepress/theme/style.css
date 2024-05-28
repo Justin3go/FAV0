@@ -27,37 +27,7 @@
 /** 正文字体 */
 @font-face {
 	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-Regular.otf");
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-ExtraLight.otf");
-	font-weight: 200;
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-Light.otf");
-	font-weight: 300;
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-Medium.otf");
-	font-weight: 500;
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-SemiBold.otf");
-	font-weight: 600;
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-Bold.otf");
-	font-weight: 700;
-}
-@font-face {
-	font-family: "SourceHanSerifCN";
-	src: url("/fonts/SourceHanSerifCN-Heavy.otf");
-	font-weight: 900;
+	src: local("SourceHanSerifCN"), url("/fonts/SourceHanSerifCN-VF.otf.woff2");
 }
 
 /* 参考 https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
