@@ -4,7 +4,9 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
-import { createSideBar, createRssFile, handleHeadMeta } from "./utils";
+import { createSideBar } from "./utils/createSideBar";
+import { createRssFile } from "./utils/rss";
+import { handleHeadMeta } from "./utils/handleHeadMeta";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
