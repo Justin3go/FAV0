@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Justin3go/FAV0/compare/v1.1.0...v1.1.1) (2024-05-28)
+
+
+### Performance Improvements
+
+* 优化字体文件 ([143998d](https://github.com/Justin3go/FAV0/commit/143998d08cf02d983ea667469c4351c0d52a3986))
+
 ## [1.1.0](https://github.com/Justin3go/FAV0/compare/v1.0.2...v1.1.0) (2024-05-28)
 
 
