@@ -6,12 +6,13 @@ export function handleHeadMeta(context: TransformContext) {
 
   const curDesc = description || context.description;
   const cover = frontmatter.cover || 'https://fav0.com/bg.jpg'
+  const cardType = frontmatter.cover ? 'summary_large_image' : 'summary'
   // 增加Twitter卡片
   const ogUrl: HeadConfig = ["meta", { property: "og:url", content: addBase(relativePath) }]
   const ogTitle: HeadConfig = ["meta", { property: "og:title", content: title }]
   const ogDescription: HeadConfig = ["meta", { property: "og:description", content: curDesc }]
   const ogImage: HeadConfig = ["meta", { property: "og:image", content: cover }]
-  const twitterCard: HeadConfig = ["meta", { name: "twitter:card", content: "summary_large_image" }]
+  const twitterCard: HeadConfig = ["meta", { name: "twitter:card", content: cardType }]
   const twitterImage: HeadConfig = ["meta", { name: "twitter:image:src", content: cover }]
   const twitterDescription: HeadConfig = ["meta", { name: "twitter:description", content: curDesc }]
 

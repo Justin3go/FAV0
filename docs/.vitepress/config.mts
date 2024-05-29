@@ -34,7 +34,7 @@ export default defineConfig({
 			"link",
 			{
 				rel: "icon",
-				href: "https://oss.justin3go.com/justin3goAvatar.ico",
+				href: "/favicon.ico",
 			},
 		],
   ],
@@ -48,7 +48,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { light: '/logo.png', dark: '/logo.png', width: 24, height: 24 },
+    logo: { light: '/favicon.png', dark: '/favicon.png', width: 32, height: 32 },
     outline: [2, 4],
     outlineTitle: "大纲",
     lastUpdatedText: "最近更新时间",
