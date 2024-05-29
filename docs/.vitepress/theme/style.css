@@ -140,6 +140,7 @@ main > div > div > pre > code {
 	border-top: 1px solid var(--vp-c-border);
 }
 
+/** 磨砂玻璃效果设置 */
 .VPNav .content .content-body {
 	backdrop-filter: blur(36px);
 	background-color: linear-gradient(
@@ -164,4 +165,9 @@ main > div > div > pre > code {
 .has-aside .container {
 	backdrop-filter: none;
 	background-color: none !important;
+}
+
+/** i18n选项不显示下拉图标 */
+.vpi-chevron-down, .text-icon {
+	display: none;
 }
