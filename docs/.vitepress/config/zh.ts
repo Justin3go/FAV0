@@ -1,18 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 import { createSideBarZH } from "../utils/createSideBar";
-import { handleHeadMeta } from "../utils/handleHeadMeta";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FAV0周刊",
   description: "《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容",
   lang: "zh-Hans", //语言
-
-  // https://vitepress.dev/reference/site-config#transformhead
-  async transformHead(context) {
-    return handleHeadMeta(context)
-  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

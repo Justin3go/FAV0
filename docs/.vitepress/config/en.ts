@@ -1,18 +1,12 @@
 import { defineConfig} from 'vitepress'
 
 import { createSideBarEN } from "../utils/createSideBar";
-import { handleHeadMeta } from "../utils/handleHeadMeta";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FAV0 Weekly",
   description: "FAV0 Weekly: Documenting Weekly Observations and Experiences, with a Focus on Front-end Development, AI, and Computer-related Topics",
   lang: "en-US", //语言
-
-  // https://vitepress.dev/reference/site-config#transformhead
-  async transformHead(context) {
-    return handleHeadMeta(context)
-  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
