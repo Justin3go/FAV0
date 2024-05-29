@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Justin3go/FAV0/compare/v1.1.1...v1.2.0) (2024-05-29)
+
+
+### Features
+
+* 更新logo ([5c7e27e](https://github.com/Justin3go/FAV0/commit/5c7e27ec7342abd22f5edbc54fde088792f69bd7))
+
 ## [1.1.1](https://github.com/Justin3go/FAV0/compare/v1.1.0...v1.1.1) (2024-05-28)
 
 
