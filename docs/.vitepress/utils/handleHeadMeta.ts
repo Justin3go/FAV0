@@ -21,7 +21,10 @@ export function handleHeadMeta(context: TransformContext) {
     twitterCard, twitterDescription, twitterImage,
   ]
 
-  return twitterHead
+  // 预加载字体
+  const preloadHead: HeadConfig[] = handleFontsPreload(context)
+
+  return [ ...twitterHead, ...preloadHead ]
 }
 
 export function addBase(relativePath: string) {
@@ -31,4 +34,26 @@ export function addBase(relativePath: string) {
   } else {
     return host + '/' + relativePath
   }
+}
+
+export function handleFontsPreload({ assets }: TransformContext) {
+  // 只预加载正文字体，代码字体不预加载，因为可能不会使用或者很少使用
+  const SourceHanSerifCN = assets.find(file => /SourceHanSerifCN-VF\.\w+\.woff2/)
+  
+  if (SourceHanSerifCN) {
+    return [
+      [
+        'link',
+        {
+          rel: 'preload',
+          href: SourceHanSerifCN,
+          as: 'font',
+          type: 'font/woff2',
+          crossorigin: ''
+        }
+      ]
+    ] as HeadConfig[]
+  }
+
+  return []
 }
