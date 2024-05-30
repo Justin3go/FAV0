@@ -1,48 +1,37 @@
 <template>
 	<div class="comments">
+		<!-- params generate in https://giscus.app/zh-CN -->
 		<Giscus
-      v-if="showComment"
-      :repo="giscusConfig.repo"
-      :repo-id="giscusConfig.repoId"
-      :category="giscusConfig.category"
-      :category-id="giscusConfig.categoryId"
-      :mapping="giscusConfig.mapping"
-      :reactions-enabled="giscusConfig.reactionsEnabled"
-      :emit-metadata="giscusConfig.emitMetadata"
-      :input-position="giscusConfig.inputPosition"
-      :theme="isDark ? 'noborder_dark' : 'noborder_light'"
-      :lang="giscusConfig.lang"
-      :loading="giscusConfig.loading"
-			:crossorigin="giscusConfig.crossorigin"
-    />
+			v-if="showComment"
+			repo="Justin3go/FAV0"
+			repo-id="R_kgDOMAyo3w"
+			category="General"
+			category-id="DIC_kwDOMAyo384Cfno-"
+			mapping="specific"
+			:term="term"
+			reactions-enabled="1"
+			emit-metadata="0"
+			input-position="top"
+			:theme="theme"
+			:lang="lang"
+			loading="lazy"
+			crossorigin="anonymous"
+		/>
 	</div>
 </template>
 <script lang="ts" setup>
-import { reactive, ref, watch, nextTick } from "vue";
+import { ref, watch, nextTick, computed } from "vue";
 import { useData, useRoute } from "vitepress";
-import Giscus, { type GiscusProps } from '@giscus/vue'
+import Giscus from "@giscus/vue";
 
 const route = useRoute();
-
 const { isDark } = useData();
 
-// params generate in https://giscus.app/zh-CN
-const giscusConfig: GiscusProps = reactive({
-	repo: "Justin3go/FAV0",
-	repoId: "R_kgDOMAyo3w",
-	category: "General",
-	categoryId: "DIC_kwDOMAyo384Cfno-",
-	mapping: "title",
-	strict: "0",
-	reactionsEnabled: "1",
-	emitMetadata: "0",
-	inputPosition: "top",
-	// theme: isDark.value ? "dark" : "light", // 需要写在页面里面才会有响应式
-	lang: "zh-CN",
-	loading: "lazy",
-	crossorigin: "anonymous",
-});
+const term = route.path.slice(-3);
+const theme = computed(() => (isDark.value ? "noborder_dark" : "noborder_light"));
+const lang = computed(() => route.path.startsWith("/en") ? 'en' : 'zh-Hans');
 
+// language变化不会触发重新加载，这里v-if强制刷新
 const showComment = ref(true);
 watch(
 	() => route.path,
@@ -50,12 +39,10 @@ watch(
 		showComment.value = false;
 		nextTick(() => {
 			showComment.value = true;
-		})
+		});
 	},
 	{
 		immediate: true,
 	}
 );
-
 </script>
-

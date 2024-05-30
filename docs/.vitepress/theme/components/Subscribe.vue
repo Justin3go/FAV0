@@ -1,5 +1,9 @@
 <template>
-	<t-popup placement="right" show-arrow destroy-on-close>
+	<t-button v-if="isEN" theme="default" variant="dashed" style="margin-bottom: 10px" @click="jumpToMedium">
+		<template #icon><NotificationIcon /></template>
+		Subscribe in Medium
+	</t-button>
+	<t-popup v-else placement="right" show-arrow destroy-on-close>
 		<template #content>
 			<div class="img-container">
 				<img src="https://oss.justin3go.com/Justin3goWXGZH_QR.png" alt="" />
@@ -12,7 +16,16 @@
 	</t-popup>
 </template>
 <script setup lang="ts">
+import { computed } from "vue";
+import { useRoute } from "vitepress";
 import { NotificationIcon } from "tdesign-icons-vue-next";
+
+const route = useRoute();
+const isEN = computed(() => route.path.startsWith("/en"));
+
+function jumpToMedium() {
+	window.open("https://medium.com/@Justin3go", "_blank");
+}
 </script>
 <style scoped>
 .img-container {
