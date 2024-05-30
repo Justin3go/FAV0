@@ -142,3 +142,12 @@ main > div > div > pre > code {
 .vpi-chevron-down, .text-icon {
 	display: none;
 }
+
+/** 主题切换按钮样式 */
+.VPSwitchAppearance {
+  width: 22px !important;
+}
+
+.VPSwitchAppearance .check {
+  transform: none !important;
+}
