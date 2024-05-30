@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.0](https://github.com/Justin3go/FAV0/compare/v1.2.0...v1.3.0) (2024-05-30)
+
+
+### Features
+
+* 支持i18n ([29f0ad4](https://github.com/Justin3go/FAV0/commit/29f0ad4381483dfb235f158355735659e1b6dfa4))
+
+
+### Bug Fixes
+
+* 搜索的国际化 ([83cc6c9](https://github.com/Justin3go/FAV0/commit/83cc6c90b79dc86882f021ccb6f17a467766d278))
+* 组件库的i18n ([8e6ddcf](https://github.com/Justin3go/FAV0/commit/8e6ddcf6b87a08abd96f47e051033f7cb6ab9c7b))
+
+
+### Performance Improvements
+
+* 预加载字体 ([3655787](https://github.com/Justin3go/FAV0/commit/365578700d41535009c9ee0b36646ff53f8b16b3))
+
 ## [1.2.0](https://github.com/Justin3go/FAV0/compare/v1.1.1...v1.2.0) (2024-05-29)
 
 
