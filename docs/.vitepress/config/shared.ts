@@ -6,6 +6,7 @@ import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
 import { createRssFileZH } from "../utils/rss";
 import { handleHeadMeta } from "../utils/handleHeadMeta";
+import { search as zhSearch } from './zh'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -49,6 +50,9 @@ export default defineConfig({
 
     search: {
       provider: "local",
+      options: {
+        locales: { ...zhSearch }
+      }
     },
 
     externalLinkIcon: true,
