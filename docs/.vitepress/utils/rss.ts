@@ -92,5 +92,5 @@ export async function createRssFileEN(config: SiteConfig) {
     });
   }
 
-  writeFileSync(path.join(config.outDir, "/en/feed.xml"), feed.rss2(), "utf-8");
+  writeFileSync(path.join(config.outDir, "feed-en.xml"), feed.rss2(), "utf-8");
 }
