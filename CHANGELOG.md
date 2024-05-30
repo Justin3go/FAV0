@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/Justin3go/FAV0/compare/v1.3.0...v1.3.1) (2024-05-30)
+
+
+### Bug Fixes
+
+* 英文RSS订阅链接错误 ([eba2bae](https://github.com/Justin3go/FAV0/commit/eba2bae55f091ac9d8e14e05faa8b4c8a5f1daf0))
+
 ## [1.3.0](https://github.com/Justin3go/FAV0/compare/v1.2.0...v1.3.0) (2024-05-30)
 
 
