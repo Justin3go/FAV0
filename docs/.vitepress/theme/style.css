@@ -1,33 +1,12 @@
 /** 代码字体 */
 @font-face {
 	font-family: "FiraCode";
-	src: url("/fonts/FiraCode-Regular.ttf");
+	src: url("/assets/fonts/FiraCode-VF.woff2");
 }
-@font-face {
-	font-family: "FiraCode";
-	src: url("/fonts/FiraCode-Light.ttf");
-	font-weight: 300;
-}
-@font-face {
-	font-family: "FiraCode";
-	src: url("/fonts/FiraCode-Medium.ttf");
-	font-weight: 500;
-}
-@font-face {
-	font-family: "FiraCode";
-	src: url("/fonts/FiraCode-SemiBold.ttf");
-	font-weight: 600;
-}
-@font-face {
-	font-family: "FiraCode";
-	src: url("/fonts/FiraCode-Bold.ttf");
-	font-weight: 700;
-}
-
 /** 正文字体 */
 @font-face {
 	font-family: "SourceHanSerifCN";
-	src: local("SourceHanSerifCN"), url("/fonts/SourceHanSerifCN-VF.otf.woff2");
+	src: local("SourceHanSerifCN"), url("/assets/fonts/SourceHanSerifCN-VF.woff2");
 }
 
 /* 参考 https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
@@ -76,8 +55,7 @@
 
 :root {
 	--vp-font-family-base: "SourceHanSerifCN";
-	--vp-font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco,
-		Consolas, "Liberation Mono", "Courier New", monospace;
+	--vp-font-family-mono: "FiraCode";
 }
 
 /**
@@ -91,9 +69,6 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-}
-code {
-	font-family: "FiraCode";
 }
 
 /** 总体类 */
@@ -134,10 +109,6 @@ main > div > div > pre > code {
 #app {
 	/* 取消移动端点击div默认高亮效果 */
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.VPFooter {
-	border-top: 1px solid var(--vp-c-border);
 }
 
 /** 磨砂玻璃效果设置 */
