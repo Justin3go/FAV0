@@ -5,23 +5,19 @@ import Theme from 'vitepress/theme-without-fonts' // https://vitepress.dev/zh/gu
 import 'tdesign-vue-next/es/style/index.css';
 
 import "./style.css";
-import Comment from "./components/Comment.vue";
 import ImageViewer from "./components/ImageViewer.vue"
 import Subscribe from "./components/Subscribe.vue";
+import DocAfter from "./components/DocAfter/Index.vue";
 
 export default {
 	...Theme,
 	Layout: () => {
 		return h(Theme.Layout, null, {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
-			"doc-after": () => h(Comment),
-			"doc-bottom": () => h(ImageViewer),
+			"doc-after": () => h(DocAfter),
+			"doc-top": () => h(ImageViewer),
 			"aside-top": () => h(Subscribe),
 		});
-	},
-
-	enhanceApp({ app }) {
-		app.component("Comment", Comment);
 	},
 };
 

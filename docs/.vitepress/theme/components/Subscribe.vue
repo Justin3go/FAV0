@@ -1,7 +1,7 @@
 <template>
-	<t-button v-if="isEN" theme="default" variant="dashed" style="margin-bottom: 10px" @click="jumpToMedium">
+	<t-button v-if="isEN" theme="default" variant="dashed" style="margin-bottom: 10px" @click="handleClick">
 		<template #icon><NotificationIcon /></template>
-		Subscribe in Medium
+		Subscribe
 	</t-button>
 	<t-popup v-else placement="right" show-arrow destroy-on-close>
 		<template #content>
@@ -23,8 +23,11 @@ import { NotificationIcon } from "tdesign-icons-vue-next";
 const route = useRoute();
 const isEN = computed(() => route.path.startsWith("/en"));
 
-function jumpToMedium() {
-	window.open("https://medium.com/@Justin3go", "_blank");
+function handleClick() {
+	document.getElementById('custom-substack-embed')!.scrollIntoView({
+		block: 'center',
+    behavior: 'smooth'
+});
 }
 </script>
 <style scoped>
