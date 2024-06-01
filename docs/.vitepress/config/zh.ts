@@ -10,6 +10,10 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    docFooter: {
+      prev: '下一期',
+      next: '上一期'
+    },
     outlineTitle: "大纲",
     lastUpdatedText: "最近更新时间",
 

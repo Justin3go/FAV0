@@ -9,6 +9,7 @@
 			category-id="DIC_kwDOMAyo384Cfno-"
 			mapping="specific"
 			:term="term"
+			strict="1"
 			reactions-enabled="1"
 			emit-metadata="0"
 			input-position="top"
@@ -27,7 +28,7 @@ import Giscus from "@giscus/vue";
 const route = useRoute();
 const { isDark } = useData();
 
-const term = route.path.slice(-3);
+const term = computed(() => route.path.slice(-3));
 const theme = computed(() => (isDark.value ? "noborder_dark" : "noborder_light"));
 const lang = computed(() => route.path.startsWith("/en") ? 'en' : 'zh-Hans');
 
@@ -46,3 +47,8 @@ watch(
 	}
 );
 </script>
+<style lang="scss" scoped>
+.comments {
+	margin-top: 80px;
+}
+</style>
