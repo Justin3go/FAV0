@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/Justin3go/FAV0/compare/v1.3.1...v1.3.2) (2024-06-01)
+
+
+### Docs
+
+* &lt;FAV0周刊001期&gt; AI内容污染搜索 ([7556917](https://github.com/Justin3go/FAV0/commit/75569177040cd08bd30dfc36822338b88c344153))
+
 ## [1.3.1](https://github.com/Justin3go/FAV0/compare/v1.3.0...v1.3.1) (2024-05-30)
 
 
