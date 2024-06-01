@@ -4,19 +4,22 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '001期--AI内容污染搜索', link: '/posts/2024/001' },
         { text: '000期--新的开始', link: '/posts/2024/000' },
       ]
     }
   ]
 }
 
+// 英文侧边栏更换格式，否则太占位了
 export function createSideBarEN() {
   return [
     {
       text: 'The Year 2024',
       collapsed: true,
       items: [
-        { text: 'Issue 000 -- A New Beginning', link: '/en/posts/2024/000' },
+        { text: '001: AI Content Pollution in Search', link: '/en/posts/2024/001' },
+        { text: '000: A New Beginning', link: '/en/posts/2024/000' },
       ]
     }
   ]

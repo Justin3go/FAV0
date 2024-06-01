@@ -10,6 +10,10 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    docFooter: {
+      prev: 'Next issue',
+      next: 'Last issue'
+    },
 
     sidebar: createSideBarEN(),
 
