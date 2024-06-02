@@ -8,6 +8,7 @@ import "./style.css";
 import Comment from "./components/Comment.vue";
 import ImageViewer from "./components/ImageViewer.vue"
 import Subscribe from "./components/Subscribe.vue";
+import BuyMeACoffee from "./components/BuyMeACoffee.vue";
 
 export default {
 	...Theme,
@@ -16,6 +17,7 @@ export default {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
 			"doc-after": () => h(Comment),
 			"doc-bottom": () => h(ImageViewer),
+			"doc-footer-before": () => h(BuyMeACoffee),
 			"aside-top": () => h(Subscribe),
 		});
 	},
