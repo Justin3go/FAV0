@@ -1,4 +1,4 @@
-<h4 align="right"><strong>English</strong> | <a href="./README.zh.md">简体中文</a> </h4>
+<h4 align="right"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
 
 <div align="center">
 
@@ -6,7 +6,7 @@
   <img src="https://fav0.com/favicon-512x512.png" height="200px" alt="logo" style="border-radius: 20px"/>
 </a>
 
-# "FAV0 Weekly"
+# 《FAV0周刊》
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![VitePress](https://img.shields.io/badge/VitePress-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -18,9 +18,9 @@
 ![Support I18N](https://img.shields.io/badge/Support%20I18N-0078D4?style=for-the-badge&logo=google-translate&logoColor=white)
 ![SEO](https://img.shields.io/badge/SEO-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-Record what I see and hear every week, mainly focusing on front-end, AI, and computer-related content.
+记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容
 
-Updated every Saturday/weekend, with updates synchronized with releases. Feel free to star/watch releases in custom to stay updated with the latest weekly releases.
+每周六/周末更新，更新同步release一次，欢迎star/watch releases in custom关注最新周刊发布
 
 [![changelog](https://img.shields.io/badge/changelog-→-0052CC?style=for-the-badge&logo=ReSharper&logoColor=white)](./CHANGELOG.md)
 
@@ -33,38 +33,38 @@ Updated every Saturday/weekend, with updates synchronized with releases. Feel fr
 
 </div>
 
-## Features
+## 功能特性
 
 
-1. 🌓 Provides light and dark mode switching to adapt to different reading environments.
-2. 🌍 Supports bilingual interface in Chinese and English for the convenience of users of different languages.
-3. 📡 Provides RSS subscription function, supporting updates in both Chinese and English.
-4. 💬 Integrated Giscus comment system for user communication and feedback.
-5. 🖼️ Supports high-definition image preview for optimized visual experience.
-6. 📜 Allows customization of font settings for improved reading comfort.
-7. 🔍 Performs SEO optimization, including Sitemap generation, Twitter Card, and Open Graph tag support to improve search engine visibility.
+1. 🌓 提供明暗模式切换功能，适应不同的阅读环境。
+2. 🌍 支持中英双语界面，方便不同语言用户的使用。
+3. 📡 提供RSS订阅功能，支持中英文内容更新推送。
+4. 💬 集成Giscus评论系统，便于用户交流和反馈。
+5. 🖼️ 支持高清大图预览，优化视觉体验。
+6. 📜 允许自定义字体设置，提升阅读舒适度。
+7. 🔍 进行SEO优化，包括Sitemap生成、Twitter Card和Open Graph标签支持，提高搜索引擎可见性。
 
 
-## Development
+## 开发
 
 ```bash
 git clone git@github.com:Justin3go/FAV0.git
 cd FAV0
 
-npm i -g pnpm # if needed
+npm i -g pnpm # 如果需要
 pnpm i
 pnpm docs:dev
 ```
-1. Modify the giscus comment configuration in `.vitepress/theme/components/Comments.vue`, specifically the `giscus` configuration;
-2. Modify the sidebar configuration, RSS configuration, metadata configuration, etc., in the `utils` folder;
-3. Modify the related configurations in the `config` folder, mainly title, description, etc.;
-4. Change the content of the articles in the `posts/**` and `en/posts/**` directories to your own content;
+1. 修改giscus评论配置，`.vitepress/theme/components/Comments.vue`中的`giscus`配置项;
+2. 修改`utils`文件夹下的中的侧边栏配置、RSS配置、元信息配置等;
+3. 修改`config`文件夹下的相关配置，主要是title、description等;
+4. 修改`posts/**`与`en/posts/**`目录中的文章内容为自己的内容;
 
-## License
+## 协议
 
-This repository is dual-licensed under the MIT License and CC-BY-4.0 License:
+本仓库采用双协议授权，即MIT协议和CC-BY-4.0协议：
 
-- All `.md` files are licensed under the CC-BY-4.0 License, you need to retain attribution.
-- Other code files are licensed under the MIT License, you may use them freely.
+- 所有`.md`文件采用CC-BY-4.0协议协议，你需要保留署名权
+- 其他代码文件采用MIT协议，你可以自由使用
 
-For more details, please see the [LICENSE](./LICENSE) file.
+具体内容请查看[LICENSE](./LICENSE)文件。
