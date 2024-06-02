@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/Justin3go/FAV0/compare/v1.3.2...v1.3.3) (2024-06-02)
+
+
+### Docs
+
+* 优化readme以及修改协议 ([b4b0d30](https://github.com/Justin3go/FAV0/commit/b4b0d306f6238efb0ff0e859a02de14fd461d74e))
+
 ## [1.3.2](https://github.com/Justin3go/FAV0/compare/v1.3.1...v1.3.2) (2024-06-01)
 
 
