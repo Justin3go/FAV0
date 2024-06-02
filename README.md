@@ -3,10 +3,10 @@
 <div align="center">
 
 <a href="https://fav0.com" target="blank">
-  <img src="https://fav0.com/favicon-512x512.png" height="200px" alt="logo" style="border-radius: 20px"/>
+  <img src="https://fav0.com/favicon-512x512.png" height="100px" alt="logo" style="border-radius: 20px"/>
 </a>
 
-# "FAV0 Weekly"
+# FAV0 Weekly
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![VitePress](https://img.shields.io/badge/VitePress-646CFF?style=for-the-badge&logo=vite&logoColor=white)
