@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/Justin3go/FAV0/compare/v1.3.3...v1.3.4) (2024-06-09)
+
+
+### Docs
+
+* &lt;weekly-002&gt; 保持独立开发的动力 ([4d61e6b](https://github.com/Justin3go/FAV0/commit/4d61e6bd055dc913777f741e34e99c6934417388))
+
 ## [1.3.3](https://github.com/Justin3go/FAV0/compare/v1.3.2...v1.3.3) (2024-06-02)
 
 
