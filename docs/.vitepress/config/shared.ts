@@ -51,7 +51,13 @@ export default defineConfig({
     search: {
       provider: "local",
       options: {
-        locales: { ...zhSearch }
+        locales: { ...zhSearch },
+        miniSearch: {
+          options: {}, // TODO
+          searchOptions: { 
+            fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 3 } 
+          }
+        }
       }
     },
 
