@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/Justin3go/FAV0/compare/v1.3.4...v1.3.5) (2024-06-16)
+
+
+### Docs
+
+* &lt;weekly-003&gt; 与GPT的信任危机 ([e19606d](https://github.com/Justin3go/FAV0/commit/e19606d9d2791b1eb145e9e4ed215c0cd27a19f6))
+
 ## [1.3.4](https://github.com/Justin3go/FAV0/compare/v1.3.3...v1.3.4) (2024-06-09)
 
 
