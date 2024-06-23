@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.6](https://github.com/Justin3go/FAV0/compare/v1.3.5...v1.3.6) (2024-06-23)
+
+
+### Bug Fixes
+
+* typo ([956c893](https://github.com/Justin3go/FAV0/commit/956c893b081d67c3300f07e8e9b0bc36a58bf6fe))
+
+
+### Docs
+
+* &lt;weekly 004&gt;为什么“都”在独立开发 ([204f7a7](https://github.com/Justin3go/FAV0/commit/204f7a74bac0f76180fe6da7551733a6b26932da))
+* add README in Japanese ([d5f13c3](https://github.com/Justin3go/FAV0/commit/d5f13c31c37c731ba02ab32a148bd3d0b9f4657a))
+
 ## [1.3.5](https://github.com/Justin3go/FAV0/compare/v1.3.4...v1.3.5) (2024-06-16)
 
 
