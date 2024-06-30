@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '005期--持续写作的瓶颈', link: '/posts/2024/005' },
         { text: '004期--为什么“都”在独立开发？', link: '/posts/2024/004' },
         { text: '003期--与GPT的信任危机', link: '/posts/2024/003' },
         { text: '002期--独立开发的动力', link: '/posts/2024/002' },
@@ -21,6 +22,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '005: The Bottleneck of Continuous Writing', link: '/en/posts/2024/005' },
         { text: '004: Why is Everyone into Indie Development?', link: '/en/posts/2024/004' },
         { text: '003: The Trust Crisis with GPT', link: '/en/posts/2024/003' },
         { text: '002: The Motivation for indie Development', link: '/en/posts/2024/002' },
