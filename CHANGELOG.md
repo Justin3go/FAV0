@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/Justin3go/FAV0/compare/v1.3.6...v1.3.7) (2024-06-30)
+
+
+### Docs
+
+* &lt;weekly&gt; 持续写作的瓶颈 ([45c8bf3](https://github.com/Justin3go/FAV0/commit/45c8bf36143b251c5c1f031a39730412852789b9))
+
 ## [1.3.6](https://github.com/Justin3go/FAV0/compare/v1.3.5...v1.3.6) (2024-06-23)
 
 
