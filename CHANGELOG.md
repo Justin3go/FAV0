@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.8](https://github.com/Justin3go/FAV0/compare/v1.3.7...v1.3.8) (2024-07-07)
+
+
+### Docs
+
+* &lt;weekly&gt; 独立开发总会有同类产品 ([c7f8440](https://github.com/Justin3go/FAV0/commit/c7f84407a06c92bf25114163a11da3b57af7289b))
+
 ## [1.3.7](https://github.com/Justin3go/FAV0/compare/v1.3.6...v1.3.7) (2024-06-30)
 
 
