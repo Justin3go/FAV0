@@ -6,6 +6,7 @@ import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
 import { createRssFileZH, createRssFileEN } from "../utils/rss";
 import { handleHeadMeta } from "../utils/handleHeadMeta";
+import { addTitleAttribute } from "../utils/handleHTML";
 import { search as zhSearch } from './zh'
 
 // https://vitepress.dev/reference/site-config
@@ -42,6 +43,11 @@ export default defineConfig({
   buildEnd: (config: SiteConfig) => {
     createRssFileZH(config);
     createRssFileEN(config);
+  },
+  async transformHtml(code, id, context) {
+    const newCode = addTitleAttribute(code)
+
+    return newCode
   },
 
   themeConfig: {
