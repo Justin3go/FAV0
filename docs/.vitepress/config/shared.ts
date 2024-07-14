@@ -4,7 +4,7 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
-import { createRssFileZH } from "../utils/rss";
+import { createRssFileZH, createRssFileEN } from "../utils/rss";
 import { handleHeadMeta } from "../utils/handleHeadMeta";
 import { search as zhSearch } from './zh'
 
@@ -41,6 +41,7 @@ export default defineConfig({
   },
   buildEnd: (config: SiteConfig) => {
     createRssFileZH(config);
+    createRssFileEN(config);
   },
 
   themeConfig: {
