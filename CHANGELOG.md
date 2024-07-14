@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.9](https://github.com/Justin3go/FAV0/compare/v1.3.8...v1.3.9) (2024-07-14)
+
+
+### Bug Fixes
+
+* 修复英文rss文件构成 ([73cd60d](https://github.com/Justin3go/FAV0/commit/73cd60d4bddd30f815c45f9b4458507248495321))
+
+
+### Docs
+
+* &lt;weekly&gt; AI时代不被淘汰 ([5e4c209](https://github.com/Justin3go/FAV0/commit/5e4c209fa852ace2f82f9d28046cd7944b87462b))
+
 ## [1.3.8](https://github.com/Justin3go/FAV0/compare/v1.3.7...v1.3.8) (2024-07-07)
 
 
