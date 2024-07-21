@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.10](https://github.com/Justin3go/FAV0/compare/v1.3.9...v1.3.10) (2024-07-21)
+
+
+### Docs
+
+* &lt;weekly&gt; 博客与周刊 ([7fd4c2e](https://github.com/Justin3go/FAV0/commit/7fd4c2e1db4c210c08a50c8452f144b4dfc8d846))
+
 ## [1.3.9](https://github.com/Justin3go/FAV0/compare/v1.3.8...v1.3.9) (2024-07-14)
 
 
