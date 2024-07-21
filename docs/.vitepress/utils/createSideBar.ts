@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '008期--博客与周刊', link: '/posts/2024/008' },
         { text: '007期--AI时代不被淘汰', link: '/posts/2024/007' },
         { text: '006期--独立开发总会有同类产品', link: '/posts/2024/006' },
         { text: '005期--持续写作的瓶颈', link: '/posts/2024/005' },
@@ -24,6 +25,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '008: Blog and Weekly', link: '/en/posts/2024/008' },
         { text: '007: Surviving the AI Era', link: '/en/posts/2024/007' },
         { text: '006: Independent Development Will Always Have Similar Products', link: '/en/posts/2024/006' },
         { text: '005: The Bottleneck of Continuous Writing', link: '/en/posts/2024/005' },
