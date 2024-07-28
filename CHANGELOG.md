@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.11](https://github.com/Justin3go/FAV0/compare/v1.3.10...v1.3.11) (2024-07-28)
+
+
+### Docs
+
+* &lt;weekly&gt; 产品体验与盈利的权衡 ([1f90ee6](https://github.com/Justin3go/FAV0/commit/1f90ee68c5910c4cdcf5d9809f7af76e71496144))
+
 ## [1.3.10](https://github.com/Justin3go/FAV0/compare/v1.3.9...v1.3.10) (2024-07-21)
 
 
