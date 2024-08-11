@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.12](https://github.com/Justin3go/FAV0/compare/v1.3.11...v1.3.12) (2024-08-11)
+
+
+### Docs
+
+* &lt;weekly&gt; 关于低谷 ([5c4e691](https://github.com/Justin3go/FAV0/commit/5c4e6913174acf6703bc3700202d4b8106c1f56c))
+
 ## [1.3.11](https://github.com/Justin3go/FAV0/compare/v1.3.10...v1.3.11) (2024-07-28)
 
 
