@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.13](https://github.com/Justin3go/FAV0/compare/v1.3.12...v1.3.13) (2024-08-11)
+
+
+### Bug Fixes
+
+* typo ([e7f0818](https://github.com/Justin3go/FAV0/commit/e7f08182fe3763f036ce6997bdaa43550fa670e6))
+
 ## [1.3.12](https://github.com/Justin3go/FAV0/compare/v1.3.11...v1.3.12) (2024-08-11)
 
 
