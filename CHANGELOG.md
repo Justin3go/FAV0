@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.14](https://github.com/Justin3go/FAV0/compare/v1.3.13...v1.3.14) (2024-08-18)
+
+
+### Docs
+
+* &lt;weekly&gt; 懈怠了 ([4cea067](https://github.com/Justin3go/FAV0/commit/4cea0674c83c448b5232d0333a38547fe294106f))
+* readme.ja ([88120c7](https://github.com/Justin3go/FAV0/commit/88120c774f5e4aebaa0055d874fd14cb503c4833))
+
 ## [1.3.13](https://github.com/Justin3go/FAV0/compare/v1.3.12...v1.3.13) (2024-08-11)
 
 
