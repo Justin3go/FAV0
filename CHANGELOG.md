@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.15](https://github.com/Justin3go/FAV0/compare/v1.3.14...v1.3.15) (2024-08-25)
+
+
+### Docs
+
+* &lt;weekly&gt; 智变时代 ([2e3cdfa](https://github.com/Justin3go/FAV0/commit/2e3cdfaf473767f6cf2ffa4e91c3d58c75661851))
+
 ## [1.3.14](https://github.com/Justin3go/FAV0/compare/v1.3.13...v1.3.14) (2024-08-18)
 
 
