@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '013期--思考致富', link: '/posts/2024/013' },
         { text: '012期--智变时代', link: '/posts/2024/012' },
         { text: '011期--懈怠了', link: '/posts/2024/011' },
         { text: '010期--关于低谷', link: '/posts/2024/010' },
@@ -29,6 +30,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '013: Think and Grow Rich', link: '/en/posts/2024/013' },
         { text: '012: Era of Intelligent Transformation', link: '/en/posts/2024/012' },
         { text: '011: Slacking Off', link: '/en/posts/2024/011' },
         { text: '010: About Low Points', link: '/en/posts/2024/010' },
