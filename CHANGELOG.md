@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.16](https://github.com/Justin3go/FAV0/compare/v1.3.15...v1.3.16) (2024-09-01)
+
+
+### Bug Fixes
+
+* TDesign dark mode style ([3ff2626](https://github.com/Justin3go/FAV0/commit/3ff26260c3016249eb9b3c6687ac39b05554bf71))
+
+
+### Docs
+
+* &lt;weekly&gt; 013期--思考致富 ([0a7d1f6](https://github.com/Justin3go/FAV0/commit/0a7d1f611b931255bb1f194098a97093a52567c2))
+
 ## [1.3.15](https://github.com/Justin3go/FAV0/compare/v1.3.14...v1.3.15) (2024-08-25)
 
 
