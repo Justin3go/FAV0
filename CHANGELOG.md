@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.17](https://github.com/Justin3go/FAV0/compare/v1.3.16...v1.3.17) (2024-09-08)
+
+
+### Docs
+
+* &lt;weekly&gt; 014期--羊皮纸风格 ([3d2fc28](https://github.com/Justin3go/FAV0/commit/3d2fc2898b09aaf0186603e448f96b1c954bb1d6))
+
 ## [1.3.16](https://github.com/Justin3go/FAV0/compare/v1.3.15...v1.3.16) (2024-09-01)
 
 
