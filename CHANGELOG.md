@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.18](https://github.com/Justin3go/FAV0/compare/v1.3.17...v1.3.18) (2024-09-22)
+
+
+### Docs
+
+* &lt;weekly&gt; 旅行的遗憾 ([7c9a8a5](https://github.com/Justin3go/FAV0/commit/7c9a8a53c2cf712d55357c4785d2a7521f3dfaa0))
+
 ## [1.3.17](https://github.com/Justin3go/FAV0/compare/v1.3.16...v1.3.17) (2024-09-08)
 
 
