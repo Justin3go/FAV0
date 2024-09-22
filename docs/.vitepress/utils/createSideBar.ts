@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '015期--旅行的遗憾', link: '/posts/2024/015' },
         { text: '014期--羊皮卷风格', link: '/posts/2024/014' },
         { text: '013期--思考致富', link: '/posts/2024/013' },
         { text: '012期--智变时代', link: '/posts/2024/012' },
@@ -31,6 +32,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '015: Regrets of Travel', link: '/en/posts/2024/015' },
         { text: '014: Parchment Style', link: '/en/posts/2024/014' },
         { text: '013: Think and Grow Rich', link: '/en/posts/2024/013' },
         { text: '012: Era of Intelligent Transformation', link: '/en/posts/2024/012' },
