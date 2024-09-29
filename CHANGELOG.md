@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.19](https://github.com/Justin3go/FAV0/compare/v1.3.18...v1.3.19) (2024-09-29)
+
+
+### Bug Fixes
+
+* 016期封面错误 ([b22a976](https://github.com/Justin3go/FAV0/commit/b22a9765660ecb709e306b99fe35c15e1d9b6d5f))
+
+
+### Docs
+
+* &lt;weekly&gt; 016期--A股大涨 ([486640b](https://github.com/Justin3go/FAV0/commit/486640b0569673f6c0b161fa628b13cc5373ba98))
+
 ## [1.3.18](https://github.com/Justin3go/FAV0/compare/v1.3.17...v1.3.18) (2024-09-22)
 
 
