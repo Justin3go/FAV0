@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.20](https://github.com/Justin3go/FAV0/compare/v1.3.19...v1.3.20) (2024-10-13)
+
+
+### Docs
+
+* &lt;weekly&gt; 017期--计算机只是工具 ([960b512](https://github.com/Justin3go/FAV0/commit/960b5121aeb97e3625bbac37fa1f708bb869c2c3))
+
 ## [1.3.19](https://github.com/Justin3go/FAV0/compare/v1.3.18...v1.3.19) (2024-09-29)
 
 
