@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.21](https://github.com/Justin3go/FAV0/compare/v1.3.20...v1.3.21) (2024-10-20)
+
+
+### Docs
+
+* &lt;weekly&gt; 018期--Perplexity分析股票 ([c693537](https://github.com/Justin3go/FAV0/commit/c693537f21f27fbdd790d1669ee0c83f37b68c5c))
+
 ## [1.3.20](https://github.com/Justin3go/FAV0/compare/v1.3.19...v1.3.20) (2024-10-13)
 
 
