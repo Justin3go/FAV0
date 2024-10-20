@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '018期--Perplexity分析股票', link: '/posts/2024/018' },
         { text: '017期--计算机只是工具', link: '/posts/2024/017' },
         { text: '016期--A股大涨', link: '/posts/2024/016' },
         { text: '015期--旅行的遗憾', link: '/posts/2024/015' },
@@ -34,6 +35,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '018: Analyzing Stocks with Perplexity', link: '/en/posts/2024/018' },
         { text: '017: Computers are Just Tools', link: '/en/posts/2024/017' },
         { text: '016: A-Share Market Surge', link: '/en/posts/2024/016' },
         { text: '015: Regrets of Travel', link: '/en/posts/2024/015' },
