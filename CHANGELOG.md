@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.22](https://github.com/Justin3go/FAV0/compare/v1.3.21...v1.3.22) (2024-10-27)
+
+
+### Docs
+
+* &lt;weekly&gt; 019期--聊聊开源 ([2188913](https://github.com/Justin3go/FAV0/commit/21889133169fe44f03d6991285cd3e9fa62ede50))
+
 ## [1.3.21](https://github.com/Justin3go/FAV0/compare/v1.3.20...v1.3.21) (2024-10-20)
 
 
