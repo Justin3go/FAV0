@@ -5,7 +5,7 @@ import { createSideBarEN } from "../utils/createSideBar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FAV0 Weekly",
-  description: "FAV0 Weekly: Documenting Weekly Observations and Experiences, with a Focus on Front-end Development, AI, and Computer-related Topics",
+  description: "FAV0 Weekly: Documenting Weekly Observations and Experiences, with a Focus on Front-end Development, AI, independent developer, and Computer-related Topics",
   lang: "en-US", //语言
 
   themeConfig: {
