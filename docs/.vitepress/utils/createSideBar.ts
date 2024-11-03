@@ -4,7 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
-        { text: '019期--大钱与小钱', link: '/posts/2024/020' },
+        { text: '020期--大钱与小钱', link: '/posts/2024/020' },
         { text: '019期--聊聊开源', link: '/posts/2024/019' },
         { text: '018期--Perplexity分析股票', link: '/posts/2024/018' },
         { text: '017期--计算机只是工具', link: '/posts/2024/017' },
