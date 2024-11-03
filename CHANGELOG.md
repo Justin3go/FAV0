@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.23](https://github.com/Justin3go/FAV0/compare/v1.3.22...v1.3.23) (2024-11-03)
+
+
+### Bug Fixes
+
+* rss文件内图片使用绝对路径 ([a7d0c3b](https://github.com/Justin3go/FAV0/commit/a7d0c3b95e3c0b673d1451a4389e096c13c998f1))
+* 更新侧边栏文档中的期号为020期 ([623ce20](https://github.com/Justin3go/FAV0/commit/623ce20acd21d54ceeb808d5621e289d2ee37bb3))
+
+
+### Docs
+
+* &lt;weekly&gt; 020期--大钱与小钱 ([ad5029f](https://github.com/Justin3go/FAV0/commit/ad5029f6ae453ae1f83e7d84d8884c88ac3d9e27))
+
+
+### Styling
+
+* 滚动条样式修改 ([f4e5a0b](https://github.com/Justin3go/FAV0/commit/f4e5a0b6c2a46eea7c3cfd5fc028f85c7a82f313))
+
 ## [1.3.22](https://github.com/Justin3go/FAV0/compare/v1.3.21...v1.3.22) (2024-10-27)
 
 
