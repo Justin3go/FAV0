@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '019期--大钱与小钱', link: '/posts/2024/020' },
         { text: '019期--聊聊开源', link: '/posts/2024/019' },
         { text: '018期--Perplexity分析股票', link: '/posts/2024/018' },
         { text: '017期--计算机只是工具', link: '/posts/2024/017' },
@@ -36,6 +37,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '020: Big Money vs. Small Money', link: '/en/posts/2024/020' },
         { text: '019: Let\'s Talk About Open Source', link: '/en/posts/2024/019' },
         { text: '018: Analyzing Stocks with Perplexity', link: '/en/posts/2024/018' },
         { text: '017: Computers are Just Tools', link: '/en/posts/2024/017' },
