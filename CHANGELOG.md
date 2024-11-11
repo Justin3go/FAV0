@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.24](https://github.com/Justin3go/FAV0/compare/v1.3.23...v1.3.24) (2024-11-11)
+
+
+### Bug Fixes
+
+* typo ([4170f44](https://github.com/Justin3go/FAV0/commit/4170f4429959ea0b35718b8468cff5551116f74a))
+
+
+### Docs
+
+* &lt;weekly&gt; 021期--社交媒体儿童禁令 & 打造个人ip ([147a19a](https://github.com/Justin3go/FAV0/commit/147a19ae38e627bc7f4cc6f8e65142778d938e4a))
+
 ## [1.3.23](https://github.com/Justin3go/FAV0/compare/v1.3.22...v1.3.23) (2024-11-03)
 
 
