@@ -17,6 +17,7 @@ export default defineConfig({
     hostname: 'https://fav0.com'
   },
   head: [
+    // 谷歌分析，如需要替换 id:“G-Z6HGDC7ZBL” 为自己的，否则删除
     ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-Z6HGDC7ZBL" }],
     [
       "script",
@@ -49,9 +50,21 @@ export default defineConfig({
     logo: { src: '/favicon.png', width: 24, height: 24 },
     outline: [2, 4],
 
+    // 本地搜索
+    // search: {
+    //   provider: "local",
+    //   options: {
+    //     locales: { ...zhSearch }
+    //   }
+    // },
+
+    // algolia搜索，需要申请，如不需要，删除下面的配置，可使用本地搜索
     search: {
-      provider: "local",
+      provider: 'algolia',
       options: {
+        appId: '99R796PPUJ',
+        apiKey: '4b50999b7ac958ff33a9e76d6ca688a5',
+        indexName: 'fav0',
         locales: { ...zhSearch }
       }
     },
