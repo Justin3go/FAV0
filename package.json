@@ -1,6 +1,6 @@
 {
   "name": "fav0",
-  "version": "1.3.24",
+  "version": "1.4.0",
   "description": "《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域以及计算机相关内容",
   "main": "index.js",
   "scripts": {
