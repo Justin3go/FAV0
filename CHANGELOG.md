@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/Justin3go/FAV0/compare/v1.3.24...v1.4.0) (2024-11-17)
+
+
+### Features
+
+* 使用algolia搜索 ([2f15001](https://github.com/Justin3go/FAV0/commit/2f15001c483490ef88c51e9c2e940797f3afd1cf))
+
+
+### Docs
+
+* &lt;weekly&gt; 022期--拖延与完美主义 ([433d7d6](https://github.com/Justin3go/FAV0/commit/433d7d604cd9f7c7ae11e84193953e9e4e3a6654))
+
 ## [1.3.24](https://github.com/Justin3go/FAV0/compare/v1.3.23...v1.3.24) (2024-11-11)
 
 
