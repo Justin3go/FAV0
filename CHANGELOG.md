@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/Justin3go/FAV0/compare/v1.4.0...v1.4.1) (2024-12-01)
+
+
+### Docs
+
+* &lt;weekly&gt; 023期--停滞不前 ([5bdf43c](https://github.com/Justin3go/FAV0/commit/5bdf43c7e72e8d872957c00f1623db758ccabd43))
+
 ## [1.4.0](https://github.com/Justin3go/FAV0/compare/v1.3.24...v1.4.0) (2024-11-17)
 
 
