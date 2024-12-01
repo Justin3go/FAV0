@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '023期--停滞不前', link: '/posts/2024/023' },
         { text: '022期--拖延与完美主义', link: '/posts/2024/022' },
         { text: '021期--社交媒体儿童禁令 & 打造个人ip', link: '/posts/2024/021' },
         { text: '020期--大钱与小钱', link: '/posts/2024/020' },
@@ -39,6 +40,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '023: At a Standstill', link: '/en/posts/2024/023' },
         { text: '022: Procrastination and Perfectionism', link: '/en/posts/2024/022' },
         { text: '021: Social Media Ban for Children & Building Your Personal Brand', link: '/en/posts/2024/021' },
         { text: '020: Big Money vs. Small Money', link: '/en/posts/2024/020' },
