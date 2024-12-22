@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/Justin3go/FAV0/compare/v1.4.1...v1.4.2) (2024-12-08)
+
+
+### Docs
+
+* &lt;weekly&gt; 024期--副业项目困扰我 ([a64a677](https://github.com/Justin3go/FAV0/commit/a64a677828c2c2f422f470194ae392ec43d556c1))
+
 ## [1.4.1](https://github.com/Justin3go/FAV0/compare/v1.4.0...v1.4.1) (2024-12-01)
 
 
