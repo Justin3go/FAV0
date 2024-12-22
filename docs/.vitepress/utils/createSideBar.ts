@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2024年',
       collapsed: true,
       items: [
+        { text: '025期--AI时代更需要模板', link: '/posts/2024/025' },
         { text: '024期--副业项目困扰我', link: '/posts/2024/024' },
         { text: '023期--停滞不前', link: '/posts/2024/023' },
         { text: '022期--拖延与完美主义', link: '/posts/2024/022' },
@@ -41,6 +42,7 @@ export function createSideBarEN() {
       text: 'The Year 2024',
       collapsed: true,
       items: [
+        { text: '025: Templates Needed More in the AI Era', link: '/en/posts/2024/025' },
         { text: '024: Side Projects Haunt Me', link: '/en/posts/2024/024' },
         { text: '023: At a Standstill', link: '/en/posts/2024/023' },
         { text: '022: Procrastination and Perfectionism', link: '/en/posts/2024/022' },
