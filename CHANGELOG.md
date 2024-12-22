@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/Justin3go/FAV0/compare/v1.4.2...v1.4.3) (2024-12-22)
+
+
+### Docs
+
+* &lt;weekly&gt;025期--AI时代更需要模板 ([763d304](https://github.com/Justin3go/FAV0/commit/763d304b2d23346413bba7a02d366b0b84d83562))
+
 ## [1.4.2](https://github.com/Justin3go/FAV0/compare/v1.4.1...v1.4.2) (2024-12-08)
 
 
