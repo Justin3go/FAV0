@@ -1,6 +1,13 @@
 export function createSideBarZH() {
   return [
     {
+      text: '2025年',
+      collapsed: true,
+      items: [
+        { text: '026期--独立开发营销', link: '/posts/2025/026' },
+      ]
+    },
+    {
       text: '2024年',
       collapsed: true,
       items: [
@@ -38,6 +45,13 @@ export function createSideBarZH() {
 // 英文侧边栏更换格式，否则太占位了
 export function createSideBarEN() {
   return [
+    {
+      text: 'The Year 2025',
+      collapsed: true,
+      items: [
+        { text: '026: Indie Development Marketing', link: '/en/posts/2025/026' },
+      ]
+    },
     {
       text: 'The Year 2024',
       collapsed: true,
