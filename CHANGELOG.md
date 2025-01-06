@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/Justin3go/FAV0/compare/v1.4.3...v1.4.4) (2025-01-05)
+
+
+### Docs
+
+* &lt;weekly&gt;026期--独立开发营销 ([3fd9634](https://github.com/Justin3go/FAV0/commit/3fd9634ede47087a0e7e780030d2525634820fcf))
+
 ## [1.4.3](https://github.com/Justin3go/FAV0/compare/v1.4.2...v1.4.3) (2024-12-22)
 
 
