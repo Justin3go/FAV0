@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/Justin3go/FAV0/compare/v1.4.4...v1.4.5) (2025-01-19)
+
+
+### Docs
+
+* &lt;weekly&gt; 027期--浮躁的AI编程 ([43875ec](https://github.com/Justin3go/FAV0/commit/43875ecd5404f85252522630578e8609984e380b))
+
 ## [1.4.4](https://github.com/Justin3go/FAV0/compare/v1.4.3...v1.4.4) (2025-01-05)
 
 
