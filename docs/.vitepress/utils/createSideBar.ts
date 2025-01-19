@@ -4,6 +4,7 @@ export function createSideBarZH() {
       text: '2025年',
       collapsed: true,
       items: [
+        { text: '027期--浮躁的AI编程', link: '/posts/2025/027' },
         { text: '026期--独立开发营销', link: '/posts/2025/026' },
       ]
     },
@@ -49,6 +50,7 @@ export function createSideBarEN() {
       text: 'The Year 2025',
       collapsed: true,
       items: [
+        { text: '027: The Impatient AI Programming', link: '/en/posts/2025/027' },
         { text: '026: Indie Development Marketing', link: '/en/posts/2025/026' },
       ]
     },
