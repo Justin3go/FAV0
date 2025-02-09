@@ -16,7 +16,7 @@ export default {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
 			"doc-after": () => h(Comment),
 			"doc-bottom": () => h(ImageViewer),
-			"aside-top": () => h(Subscribe),
+			// "aside-top": () => h(Subscribe),
 		});
 	},
 
