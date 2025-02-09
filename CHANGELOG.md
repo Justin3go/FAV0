@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.6](https://github.com/Justin3go/FAV0/compare/v1.4.5...v1.4.6) (2025-02-09)
+
+
+### Bug Fixes
+
+* 遗忘的链接 ([0612277](https://github.com/Justin3go/FAV0/commit/0612277262a7d04df6c58a49e67075dc5b9fa095))
+
+
+### Docs
+
+* &lt;weekly&gt; 028期--社交媒体你会使用关注列表吗？ ([d78e969](https://github.com/Justin3go/FAV0/commit/d78e9691670b2b8550a6aa0e75ee4ac4a490acb8))
+
 ## [1.4.5](https://github.com/Justin3go/FAV0/compare/v1.4.4...v1.4.5) (2025-01-19)
 
 
