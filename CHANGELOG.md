@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.7](https://github.com/Justin3go/FAV0/compare/v1.4.6...v1.4.7) (2025-03-16)
+
+
+### Docs
+
+* 添加2025年029期内容《这个精彩的世界》及其链接 ([1acd406](https://github.com/Justin3go/FAV0/commit/1acd406b6d38b429cf39408ea90f388d319cca1d))
+
 ## [1.4.6](https://github.com/Justin3go/FAV0/compare/v1.4.5...v1.4.6) (2025-02-09)
 
 
