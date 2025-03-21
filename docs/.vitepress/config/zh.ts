@@ -9,6 +9,14 @@ export default defineConfig({
   lang: "zh-Hans", //语言
 
   themeConfig: {
+    nav: [
+			{ text: "关于", items: [
+        { text: "作者", link: "https://justin3go.com/about" },
+        { text: "Turbo0", link: "https://turbo0.com" },
+        { text: "Template0", link: "https://template0.com" },
+			] },
+
+    ],
     // https://vitepress.dev/reference/default-theme-config
     docFooter: {
       prev: '下一期',

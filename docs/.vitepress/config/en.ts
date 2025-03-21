@@ -9,6 +9,13 @@ export default defineConfig({
   lang: "en-US", //语言
 
   themeConfig: {
+    nav: [
+      { text: "About", items: [
+        { text: "Author", link: "https://justin3go.com/en/about" },
+        { text: "Turbo0", link: "https://turbo0.com" },
+        { text: "Template0", link: "https://template0.com" },
+      ] },
+    ],
     // https://vitepress.dev/reference/default-theme-config
     docFooter: {
       prev: 'Next issue',
