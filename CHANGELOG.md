@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.8](https://github.com/Justin3go/FAV0/compare/v1.4.7...v1.4.8) (2025-03-21)
+
+
+### Docs
+
+* 添加导航菜单，包括关于作者及相关链接 ([0de858a](https://github.com/Justin3go/FAV0/commit/0de858a46e0b65f5e5b9ebfce73d1d299ad31071))
+
 ## [1.4.7](https://github.com/Justin3go/FAV0/compare/v1.4.6...v1.4.7) (2025-03-16)
 
 
